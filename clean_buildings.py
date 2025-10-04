@@ -3,8 +3,8 @@ import pandas as pd
 from shapely.geometry import box
 
 #data location, aoi and crs definitions
-official_file = "data/hausumringe.shp"
-osm_file = "data/gis_osm_buildings_a_free_1.shp"
+official_file = "data/cropped_official.shp" #hausumringe
+osm_file = "data/cropped_osm.shp" #gis_osm_buildings_a_free_1
 output_file = "data/clean_buildings.shp"
 aoi_bounds = (693272.2765,5334639.8594,694092.5774,5335238.0172)
 target_crs = "EPSG:32632"
